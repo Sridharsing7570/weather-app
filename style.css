@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, rgb(58, 57, 57));
+}
+
+.weather {
+    min-height: 70vh;
+    min-width: 30vw;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px 3px black;
+    background: linear-gradient(#219EBC, #8ECAE6);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 5rem;
+    min-height: 10vh;
+    min-width: 30vw;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.search-input p {
+    color: white;
+    margin: 2px 2px 2px 2px;
+}
+
+.search-input input {
+    min-width: 17rem;
+    min-height: 35px;
+    border-radius: 14px;
+    border: none;
+    outline: none;
+    padding: 2px 3px 3px 5px;
+
+}
+
+button img {
+    height: 17px;
+    width: 15px;
+    object-fit: cover;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    height: 36px;
+    width: 35px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+
+.condition img {
+    height: 10rem;
+    width: 10rem;
+}
+
+.condition {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp,
+.city {
+    font-size: 3rem;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.city {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.humidity,
+.speed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2px 2px 2px;
+}
+
+.humidity img,
+.speed img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.humi span,
+.wind-speed span {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.humi p,
+.wind-speed p {
+    color: white;
+}
+
+.bellow {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    display: block;
+    min-width: 30vw;
+    min-height: 60vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
